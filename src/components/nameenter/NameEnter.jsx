@@ -1,18 +1,21 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import gif from '../gifs/STK-20241031-WA0002 (2).webp'
-import left from '../images/left.jpeg'
+import gif from '../gifs/STK-20241031-WA0002 (2).webp';
+import left from '../images/left.jpeg';
 
 const NameEnter = ({ setTinku }) => {
   const [inputName, setInputName] = useState(''); // Local state for the input field
   const [showGif, setShowGif] = useState(false); // State to show GIF when input is empty
   const [showLeftImage, setShowLeftImage] = useState(false);
 
-   // Show the right image after 4 seconds
-   const leftTimer = setTimeout(() => {
-    setShowLeftImage(true);
-  }, 2000);
+  useEffect(() => {
+    const leftTimer = setTimeout(() => {
+      setShowLeftImage(true);
+    }, 2000);
 
+    // Clear the timeout if the component unmounts or if inputName changes
+    return () => clearTimeout(leftTimer);
+  }, [inputName]); // Run effect when inputName changes
 
   const handleInputChange = (e) => {
     setInputName(e.target.value);
@@ -54,14 +57,13 @@ const NameEnter = ({ setTinku }) => {
               alt="Funny GIF for empty input"
               className="w-60 h-60 mx-auto"
             />
-            <p className=' mt-2 font-semibold text-yellow-400'>“A blank box? Very original. Now, try again! 😆”</p>
+            <p className='mt-2 font-semibold text-yellow-400'>“A blank box? Very original. Now, try again! 😆”</p>
           </div>
         )}
       </div>
 
-
       {showLeftImage && (
-        <img src={left} alt="Left Image" className='absolute left-0 top-1/2 transform -translate-y-1/2 w-[120px] z-10' />
+        <img src={left} alt="Left" className='absolute left-0 top-1/2 transform -translate-y-1/2 w-[120px] z-10' />
       )}
     </div>
   );

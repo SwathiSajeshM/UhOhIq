@@ -71,7 +71,7 @@ const Disclaimer = () => {
         <img src={simpbat} alt="Bart Simpson" className='absolute bottom-0 left-10 transform -translate-x-1/2 w-[150px] z-10' />
       )}
       {showRightImage && (
-        <img src={right} alt="Right Image" className='absolute right-0 top-1/2 transform -translate-y-1/2 w-[120px] z-10' />
+        <img src={right} alt="Right" className='absolute right-0 top-1/2 transform -translate-y-1/2 w-[120px] z-10' />
       )}
     </div>
   );

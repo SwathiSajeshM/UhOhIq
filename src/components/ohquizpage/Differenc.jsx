@@ -20,10 +20,12 @@ const Differenc = () => {
       setShowBat(true);
     }, 2000);
 
+     // Cleanup timeout on component unmount
+  return () => clearTimeout(batTimer);
+}, []);
+
  
    
-    
-  }, []);
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
