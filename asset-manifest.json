@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/UhOhIq/static/css/main.6ea56f61.css",
+    "main.js": "/UhOhIq/static/js/main.78385bcc.js",
+    "static/media/difvdo.mp4": "/UhOhIq/static/media/difvdo.66ab37ab4b70298ce5bd.mp4",
+    "static/media/1stoption.mp4": "/UhOhIq/static/media/1stoption.4579a6fbb269a8012754.mp4",
+    "static/media/bean.mp4": "/UhOhIq/static/media/bean.80b71acbc428edc896ab.mp4",
+    "static/media/difvdo2.mp4": "/UhOhIq/static/media/difvdo2.338bfae12fcf6376195d.mp4",
+    "static/media/option2.mp4": "/UhOhIq/static/media/option2.142bf9a4e13f3b214a2e.mp4",
+    "static/media/option5.mp4": "/UhOhIq/static/media/option5.72aa9d02c3a7ebf9246e.mp4",
+    "static/media/option3.mp4": "/UhOhIq/static/media/option3.1283f1a02e839adb3405.mp4",
+    "static/media/option7.mp4": "/UhOhIq/static/media/option7.186e7b928d112b96b5ce.mp4",
+    "static/media/option4.mp4": "/UhOhIq/static/media/option4.6ced81d3b44e982557c6.mp4",
+    "static/media/option6.mp4": "/UhOhIq/static/media/option6.25e9719ba2f7d3a0490b.mp4",
+    "static/media/difvdo3.mp4": "/UhOhIq/static/media/difvdo3.1c524ad25383fce2ac7a.mp4",
+    "static/media/successvdo.mp4": "/UhOhIq/static/media/successvdo.3901a1d8d05126529c26.mp4",
+    "static/media/bgimg.jpg": "/UhOhIq/static/media/bgimg.625c7cd3886b2abbe530.jpg",
+    "static/media/STK-20241103-WA0001.webp": "/UhOhIq/static/media/STK-20241103-WA0001.c4721b42492f58612367.webp",
+    "static/media/STK-20241103-WA0001 (2).webp": "/UhOhIq/static/media/STK-20241103-WA0001 (2).546a2d87ffdcd49db57b.webp",
+    "static/media/chaplintwo.jpg": "/UhOhIq/static/media/chaplintwo.41561d49300f58ad3643.jpg",
+    "static/media/beandiffimg.jpg": "/UhOhIq/static/media/beandiffimg.3929a8a555860c5b23b6.jpg",
+    "static/media/STK-20241103-WA0002 (2).webp": "/UhOhIq/static/media/STK-20241103-WA0002 (2).360f7463b912345f084c.webp",
+    "static/media/charlie chaplin.jpg": "/UhOhIq/static/media/charlie chaplin.e621d99be8a243421b3e.jpg",
+    "static/media/STK-20241031-WA0002 (2).webp": "/UhOhIq/static/media/STK-20241031-WA0002 (2).e8d05278d0bedd5d4856.webp",
+    "static/media/Bart Simpson (1).jpeg": "/UhOhIq/static/media/Bart Simpson (1).52f18bfb6b8ffc40b69f.jpeg",
+    "static/media/STK-20241103-WA0002.webp": "/UhOhIq/static/media/STK-20241103-WA0002.d0d32e252d1bb4a29a51.webp",
+    "static/media/1000160333-01.jpeg": "/UhOhIq/static/media/1000160333-01.87d1f3578c3450c200d8.jpeg",
+    "static/media/left.jpeg": "/UhOhIq/static/media/left.8f12276b0cb1d44a418e.jpeg",
+    "static/media/right.jpeg": "/UhOhIq/static/media/right.f08f996709e257cccb32.jpeg",
+    "static/media/audio.opus": "/UhOhIq/static/media/audio.5b0f5b6ac6cb94a65830.opus",
+    "index.html": "/UhOhIq/index.html",
+    "main.6ea56f61.css.map": "/UhOhIq/static/css/main.6ea56f61.css.map",
+    "main.78385bcc.js.map": "/UhOhIq/static/js/main.78385bcc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ea56f61.css",
+    "static/js/main.78385bcc.js"
+  ]
+}
